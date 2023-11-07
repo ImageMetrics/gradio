@@ -72,11 +72,11 @@ importers:
         specifier: ^10.4.4
         version: 10.4.4(postcss@8.4.27)
       babylonjs:
-        specifier: ^5.17.1
-        version: 5.18.0
+        specifier: ^6.9.0
+        version: 6.9.0
       babylonjs-loaders:
-        specifier: ^5.17.1
-        version: 5.18.0
+        specifier: ^6.9.0
+        version: 6.9.0
       eslint:
         specifier: ^8.46.0
         version: 8.46.0
@@ -1114,11 +1114,11 @@ importers:
         specifier: ^6.16.6
         version: 6.16.6
       babylonjs:
-        specifier: ^4.2.1
-        version: 4.2.2
+        specifier: ^6.9.0
+        version: 6.9.0
       babylonjs-loaders:
-        specifier: ^4.2.1
-        version: 4.2.2
+        specifier: ^6.9.0
+        version: 6.9.0
 
   js/number:
     dependencies:
@@ -8045,34 +8045,19 @@ packages:
       '@babel/types': 7.22.5
     dev: false
 
-  /babylonjs-gltf2interface@4.2.2:
-    resolution: {integrity: sha512-LCQgW1lM+EpKK4yWMiPEgi6ONwJ7W4JrSu3t9JixNRgvnic72OnN2f0bt91rE30EJr1ZaokvkXD/aEiBp/Juyg==}
+  /babylonjs-gltf2interface@6.9.0:
+    resolution: {integrity: sha512-RyXOadnFWVEE1xgJSWrsJS/KgC2E9rYMj+qhjq7NWCG/b6azVjIUoWUJrmZQx44LObaoC49dJexNuUSdPUyR9A==}
     dev: false
 
-  /babylonjs-gltf2interface@5.18.0:
-    resolution: {integrity: sha512-VucYtbedtHv89lEhgrD5ULoXTCcU8ZjyBygdh06VybiVSaCzQqTxam6ZFibazpkzB6maSHe8yAm3wE1EPfOxhg==}
-    dev: false
-
-  /babylonjs-loaders@4.2.2:
-    resolution: {integrity: sha512-IuShR5N4zkDMzKEGsCZ0uZDCn07BLLj8LlKwyiSwFR1V9KxAALkt2INTMCdXjuWELTcZEALZlyO85mKJ2pDPHw==}
+  /babylonjs-loaders@6.9.0:
+    resolution: {integrity: sha512-erI/Y9ZQ3dBFTxy16IrKgrTaiIxG83Qpe72kMXPlGKpsdpKzzUmm/mgQA7O0kTQKdVJ+esLErYOAfEq/hx26Hg==}
     dependencies:
-      babylonjs: 4.2.2
-      babylonjs-gltf2interface: 4.2.2
+      babylonjs: 6.9.0
+      babylonjs-gltf2interface: 6.9.0
     dev: false
 
-  /babylonjs-loaders@5.18.0:
-    resolution: {integrity: sha512-O4v8kGylkWlcHJfhToKiyQprkhcIWe0PiT5yudfTSkpXrWy7YXb1VzssxilfkLRFOr7MWHlNvW+zZNcTs+Sk8Q==}
-    dependencies:
-      babylonjs: 5.18.0
-      babylonjs-gltf2interface: 5.18.0
-    dev: false
-
-  /babylonjs@4.2.2:
-    resolution: {integrity: sha512-p7mTi6+nLuWJTLbwxEJxLOh/QMHMV2KA0bviEoQSK5VtsAq1F0JghoOZYRs4aEqAZF/deFPWvMQk1vbXJ+4eEA==}
-    dev: false
-
-  /babylonjs@5.18.0:
-    resolution: {integrity: sha512-d4WrcR3e1FOnOlEtOofRH+OniZT4cx6EuDvKB0OkqnPnjD7ALuo5cmJDQmILWnDTOJRqojK7Psz9etEeNDionA==}
+  /babylonjs@6.9.0:
+    resolution: {integrity: sha512-+nScb5evOFP7JHYPVbWg3z9porpQ3uNXALuSeMu2ppum47El0jIan9a5d8mhX+Od9DrlSK272Cc5VdhRSoB7Mw==}
     requiresBuild: true
     dev: false
 
